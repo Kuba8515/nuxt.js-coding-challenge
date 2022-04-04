@@ -3,9 +3,13 @@
 ## My approach
 
 As this was my first try using NuxtJS, I started going through the Documentation first. I realized there are quite a few similarities between nuxt and nextjs.
+
 When initializing the project in the previously created GitHub repo, I encountered my first problem. I got an error message saying I cant create the project because the directory is not empty. I solved the problem by starting the project locally, and then pushing it on to GitHub.
+
 My next step was to visit the official Hokify page. I used DevTools in order to indentify your main color aswell as download the Logo.
-My main idea for this challenge was to create a simple yet visually pleasing app. For that I created three components: one for the Header, one for the main page and one for the Footer. I tried to integrate some small features for hovering and focus. For the input fields I used placeholder. For the success message I used a simple alert() method, as from my understanding the main focus of this challenge was the frontend itself. My next step was to create a tailwind.config.js file by running the "yarn tailwindcss init" command. In this file I change Darkmode from false to class. I also included cyan: '#0fb1af' in order to use it for the project.
+My main idea for this challenge was to create a simple yet visually pleasing app. For that I created three components: one for the Header, one for the main page and one for the Footer. I tried to integrate some small features for hovering and focus. For the input fields I used placeholder. For the success message I used a simple alert() method, as from my understanding the main focus of this challenge was the frontend itself.
+
+My next step was to create a tailwind.config.js file by running the "yarn tailwindcss init" command. In this file I change Darkmode from false to class. I also included cyan: '#0fb1af' in order to use it for the project.
 Then I went over to implement the Dark Mode. For that I installed the "nuxtjs/color-mode" library. Then I went through the nuxt/colormode documentation. I integrated the color mode in the nuxt.config.js file in the modules. I used the select element in the Header for the user to switch between light and dark mode.
 
 ## Build Setup
