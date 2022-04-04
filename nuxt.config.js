@@ -20,6 +20,8 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
+  tailwindcss: {},
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
@@ -32,13 +34,24 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxt/image',
+    '@nuxtjs/color-mode',
   ],
+
+  colorMode: {
+    classSuffix: '',
+  },
+
+  image: {
+    // Options
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

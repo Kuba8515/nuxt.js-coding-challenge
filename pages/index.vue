@@ -1,5 +1,9 @@
 <template>
-  <Tutorial />
+  <div class="light">
+    <Header />
+    <MainPage />
+    <Footer />
+  </div>
 </template>
 
 <script lang="ts">
