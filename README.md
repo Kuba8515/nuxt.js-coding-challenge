@@ -10,7 +10,7 @@ My next step was to visit the official Hokify page. I used DevTools in order to 
 My main idea for this challenge was to create a simple yet visually pleasing app. For that I created three components: one for the Header, one for the main page and one for the Footer. I tried to integrate some small features for hovering and focus. For the input fields I used placeholder. For the success message I used a simple alert() method, as from my understanding the main focus of this challenge was the frontend itself.
 
 My next step was to create a tailwind.config.js file by running the "yarn tailwindcss init" command. In this file I change Darkmode from false to class. I also included cyan: '#0fb1af' in order to use it for the project.
-Then I went over to implement the Dark Mode. For that I installed the "nuxtjs/color-mode" library. Then I went through the nuxt/colormode documentation. I integrated the color mode in the nuxt.config.js file in the modules. I used the select element in the Header for the user to switch between light and dark mode.
+Then I went over to implement the Dark Mode. For that I installed the "nuxtjs/color-mode" library. Then I went through the nuxt/colormode documentation. I integrated the color mode in the nuxt.config.js file in the modules. There were some problems with compatibility when it comes to nuxt/colormode and nuxt. I had to downgrade the nuxt/colormode library in order for everything tho work properly. Finally I used the select element in the Header for the user to switch between light and dark mode.
 
 ## Build Setup
 
